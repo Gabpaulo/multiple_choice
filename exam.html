@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    
+</head>
+<body>
+ 
+    <div class="container">
+        <div class="quiz-title">
+            <h1 style="font-size: 100px;" class="quiz-word">quiz.</h1>
+            <h2>Choose the correct answer.</h2>
+            <p class="name">Paulo Gabriel</p>
+        </div>
+        <div class="start-button">
+            <button class="start-btn" id="startButton">START &#8594;</button>
+        </div>
+    </div>
+
+    <div class="container-grats" style="display:NONE">
+        <div class="quiz-title">
+            <h1 style="font-size: 100px;" class="quiz-word">gratz.</h1>
+        </div>
+    </div>
+
+
+    <p class="timer" style="display: none;"> 00:00</p>
+    <p class="score" style="display:none">Score:0</p>
+
+    <div class="main-container" style="display: none;">
+        
+        <div class="quiz-container">
+            
+   
+            <div class="questions">
+                <div class="question" style="text-align: center;">
+                    <h1 class="word-question" style="text-align: center;">QUESTION</h1>
+                    <h2 class="current-question"></h2>
+                    <div class="options">
+                        <label></label>
+                        <label></label>
+                        <label></label>
+                        <label></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="quiz-container">
+            <div class="questions">
+                <div class="question" style="text-align: center;">
+                    <h1 class="word-question" style="text-align: center;">QUESTION</h1>
+                    <h2 class="current-question"></h2>
+                    <div class="options">
+                        <label></label>
+                        <label></label>
+                        <label></label>
+                        <label></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <button class="button-check" disabled>CHECK</button>
+      <button class="button-next"disabled>NEXT</button>
+    </div>
+    
+
+
+
+    <script src="exam.js">
+    </script>
+
+</body>
+</html>
